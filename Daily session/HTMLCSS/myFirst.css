@@ -1,0 +1,53 @@
+
+
+h3 {
+	background: lightgrey;
+	margin: 20px 10px 50px 100px;
+	/*margin: top right bottom left;*/
+	/*padding: top right bottom left;*/
+}
+
+
+h4, h5 {
+	border: 2px dashed red;
+	padding: 20px 10px 50px 100px;
+}
+
+h4 {
+	color: blue;
+}
+h5 {
+	color: brown;
+}
+
+p.content {
+	font-size: 25px;
+}
+input[type="text"] {
+	border: 2px solid red; 
+}
+
+.div1 {
+	border: 1px dashed blue;
+	padding: 0 2em;
+
+}
+.div1 p {
+	background: yellow;
+}
+.div1 > p {
+	background: aqua;
+}
+.div1 ~ p {
+	background: grey;
+	color: green;
+}
+.div1 + p {
+	background: brown;
+	color: white;
+}
+
+.div1.main {
+	border: 1px solid red;
+}
+

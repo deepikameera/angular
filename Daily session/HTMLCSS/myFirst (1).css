@@ -1,0 +1,109 @@
+
+
+h3 {
+	background: lightgrey;
+	margin: 20px 10px 50px 100px;
+	/*margin: top right bottom left;*/
+	/*padding: top right bottom left;*/
+}
+
+
+h4, h5 {
+	border: 2px dashed red;
+	padding: 20px 10px 50px 100px;
+}
+
+h4 {
+	color: blue;
+}
+h5 {
+	color: brown;
+}
+
+p.content {
+	font-size: 25px;
+}
+input[type="text"] {
+	border: 2px solid red; 
+}
+/** {
+	border: 2px solid brown; 
+	margin: 25px;
+}*/
+
+/*.unordered-list > li:nth-child(3) {
+	letter-spacing: 10px;
+}
+.unordered-list > li:first-child {
+	letter-spacing: 10px;
+}
+.unordered-list > li:first-child {
+	letter-spacing: 10px;
+}*/
+
+.unordered-list li:not(:first-child) {
+	letter-spacing: 10px;
+}
+.unordered-list li:nth-child(5) {
+	display: none;
+}
+
+.ordered-list li::visited {
+	color: red;
+	padding-left: 10px;
+	font-size: 20px;
+}
+.div2.height-width {
+	border: 1px solid green;
+	height: 6em;
+	width: 80%;
+}
+/*.div2.height-width p {
+	border: 1px dashed green;
+	width: 1em;
+	position: relative;
+}*/
+
+.div1 {
+	border: 1px dashed blue;
+	padding: 0 2em;
+
+}
+.div1 p {
+	background: yellow;
+}
+.div1 > p {
+	background: aqua;
+}
+.div1 ~ p {
+	background: grey;
+	color: green;
+}
+.div1 + p {
+	background: brown;
+	color: white;
+}
+
+.div1.main {
+	border: 1px solid red;
+}
+
+.paragraph::before {
+	content: "My name is Khan";
+	border: 1px solid yellow;
+}
+.paragraph::after {
+	/*position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;*/
+	content: "My name is Khan";
+	border: 1px solid red;
+}
+.h1 {
+	/*position: absolute;*/
+	float: right;
+	clear: left;
+}
+
